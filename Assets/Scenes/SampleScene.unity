@@ -341,7 +341,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 200
-  field of view: 50
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -739,6 +739,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 186989990}
+    - target: {fileID: -3705777097086706001, guid: dd9c32a8454f148ccb53c6bfc9760d70,
+        type: 3}
+      propertyPath: jumpForce
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1872388863726444398, guid: dd9c32a8454f148ccb53c6bfc9760d70,
         type: 3}
       propertyPath: m_Name
@@ -1118,8 +1123,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1275727206}
   - component: {fileID: 1275727209}
-  - component: {fileID: 1275727208}
   - component: {fileID: 1275727207}
+  - component: {fileID: 1275727210}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -1204,19 +1209,6 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_ApplyBeforeBody: 0
---- !u!114 &1275727208
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1275727205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36d1163fa822e8b418a0a603ec078d5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Damping: 0
 --- !u!114 &1275727209
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1229,6 +1221,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1275727210
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275727205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: 0}
+  m_XDamping: 0
+  m_YDamping: 0
+  m_ZDamping: 0
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
 --- !u!1001 &1311409969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1413,7 +1427,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 186989994}
   m_Lens:
-    FieldOfView: 50
+    FieldOfView: 70
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 200

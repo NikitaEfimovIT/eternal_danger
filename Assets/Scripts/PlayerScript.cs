@@ -23,15 +23,18 @@ public class PlayerScript : MonoBehaviour
     
     
     
-    void Update()
+    void FixedUpdate()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
+
         Vector3 inputDirection = new Vector3(horizontalInput, 0, verticalInput).normalized;
         Vector3 moveDirection = Camera.main.transform.TransformDirection(inputDirection);
+        
+        
         bool altPressed = Input.GetKey(KeyCode.LeftAlt);
         float playerJump = Input.GetAxis("Jump");
-
+        
         if (altPressed)
         {
             Cursor.lockState = CursorLockMode.None;
@@ -58,7 +61,8 @@ public class PlayerScript : MonoBehaviour
         }
 
         // player.Move(moveDirection * moveSpeed * Time.deltaTime);
-        player.transform.Translate(new Vector3(moveDirection.x * moveSpeed * Time.deltaTime,
+
+        player.MovePosition(player.transform.position + new Vector3(moveDirection.x * moveSpeed * Time.deltaTime,
             0, moveDirection.z * moveSpeed * Time.deltaTime));
     }
     
