@@ -5,65 +5,36 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     public float moveSpeed = 3f;
-    
-    public Rigidbody player;
-    
-    public Camera cam;
     public float jumpForce = 30;
-    
-    public float gravity = Physics.gravity.y;
-    private bool isGrounded = true;
-
     private float viewRotationSpeed = 300;
+    public CharacterController characterController;
+    private Vector3 playerVelocity;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
     
-    
-    
-    void FixedUpdate()
+    void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        if (characterController.isGrounded && playerVelocity.y < 0)
+        {
+            playerVelocity.y = 0f;
+        }
 
-        Vector3 inputDirection = new Vector3(horizontalInput, 0, verticalInput).normalized;
-        Vector3 moveDirection = Camera.main.transform.TransformDirection(inputDirection);
+        Vector3 moveDirection = transform.forward * Input.GetAxis("Vertical") + transform.right * Input.GetAxis("Horizontal");
+        moveDirection.y = 0;
+        moveDirection = moveDirection.normalized;
         
-        
-        bool altPressed = Input.GetKey(KeyCode.LeftAlt);
-        float playerJump = Input.GetAxis("Jump");
-        
-        if (altPressed)
+        Cursor.lockState = Input.GetKey(KeyCode.LeftAlt) ? CursorLockMode.None : CursorLockMode.Locked;
+
+       if (Input.GetButtonDown("Jump") && characterController.isGrounded)
         {
-            Cursor.lockState = CursorLockMode.None;
-        }
-        else
-        {
-            Cursor.lockState = CursorLockMode.Locked;
+            playerVelocity.y += Mathf.Sqrt(jumpForce * -2.0f * Physics.gravity.y);
         }
 
-        if (playerJump != 0 && isGrounded)
-        {
-            player.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isGrounded = false;
-        }
-
-        // if (playerJump == 0 && player.velocity.y < 0)
-        // {
-        //     player.AddForce(Vector3.down*gravity, ForceMode.Impulse);
-        // }
-
-        if (playerJump == 0 && player.velocity.y == 0)
-        {
-            isGrounded = true;
-        }
-
-        // player.Move(moveDirection * moveSpeed * Time.deltaTime);
-
-        player.MovePosition(player.transform.position + new Vector3(moveDirection.x * moveSpeed * Time.deltaTime,
-            0, moveDirection.z * moveSpeed * Time.deltaTime));
+        playerVelocity.y += Physics.gravity.y * Time.deltaTime;
+        characterController.Move(playerVelocity * Time.deltaTime + moveDirection * (moveSpeed * Time.deltaTime));
     }
     
 }
