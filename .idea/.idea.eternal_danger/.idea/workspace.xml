@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e73b3bc0-aabf-4f69-a873-2ca9e57f931d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/1HDRPMaterialSettingsLashesBrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/1HDRPMaterialSettingsLashesBrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/2HDRPMaterialSettingsHair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/2HDRPMaterialSettingsHair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/3HDRPMaterialSettingsSkin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/3HDRPMaterialSettingsSkin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/ExampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/ExampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/ExampleSceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/ExampleSceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/Animations/FreeTestAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/Animations/FreeTestAnimationController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/Animations/Materials/DefaultMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/Animations/Materials/DefaultMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/Materials/AsunaArmor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/Materials/AsunaArmor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/Materials/CharacterStandardAmmunition.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/Materials/CharacterStandardAmmunition.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/Materials/CharacterStandardEquipment.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/Materials/CharacterStandardEquipment.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyBlack.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyRed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaHead.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaHead.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/Cornea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/Cornea.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballBrown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballBrown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballCyan.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballCyan.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballIceBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballIceBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballOrange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballOrange.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballPurple.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballPurple.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballRed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballYellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballYellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBlack.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBlonde.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBlonde.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBrown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBrown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairRed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultLashesBrows/DefaultLashesBrows.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultLashesBrows/DefaultLashesBrows.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultTeeth/DefaultTeeth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultTeeth/DefaultTeeth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerPrefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerPrefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IdleState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpingState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PLayerStateMachine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2pyqHyb3TlmP5moAGkSE8EG0euX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "adding__character",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="90594">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="90594" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e73b3bc0-aabf-4f69-a873-2ca9e57f931d" name="Changes" comment="" />
+      <created>1733748579011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733748579011</updated>
+      <workItem from="1733748582262" duration="14552000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
