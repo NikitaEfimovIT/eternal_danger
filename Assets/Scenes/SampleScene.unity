@@ -293,9 +293,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.6
   far clip plane: 200
-  field of view: 60
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1056,7 +1056,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _followTransform: {fileID: 330585546}
+  _spineTransform: {fileID: 1107632563}
   axis: {x: 0, y: 1, z: 0}
+  leanMultiplier: 1
 --- !u!1001 &943386287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1350,6 +1352,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1107632563 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3185130880355884242, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1684095351}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1170757327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3578636183197473708, guid: 39ad07b9370d64c48bbf5dc2252d4e52,
@@ -1618,9 +1626,9 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 186989994}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 40
     OrthographicSize: 5
-    NearClipPlane: 0.3
+    NearClipPlane: 0.6
     FarClipPlane: 200
     Dutch: 0
     ModeOverride: 0
@@ -1847,10 +1855,15 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 9000000, guid: 9e1731dd636f6874eb5a9435655f8273, type: 3}
+    - target: {fileID: 2754213839197597741, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4775ccfcc5dd08b46962f86c2c57e286, type: 2}
     - target: {fileID: 4125323010667199133, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7944589613917024658, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
         type: 3}

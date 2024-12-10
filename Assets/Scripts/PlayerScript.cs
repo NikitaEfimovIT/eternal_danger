@@ -69,7 +69,17 @@ public class PlayerScript : MonoBehaviour
         // Debug.Log(Input.GetKey(KeyCode.Space));
 
         UpdateAnimatorParameters();
-        
+        // if (Input.GetKeyDown(KeyCode.Mouse0))
+        // {
+        //     Debug.Log("down");
+        //     animator.SetBool("isAiming", true);
+        // }
+        //
+        // if (Input.GetKeyUp(KeyCode.Mouse0))
+        // {
+        //     Debug.Log("up");
+        //     animator.SetBool("isAiming", false);
+        // }
         if (Input.GetKey(KeyCode.Space) && characterController.isGrounded)
         {
             ChangeState(new JumpingState(this));

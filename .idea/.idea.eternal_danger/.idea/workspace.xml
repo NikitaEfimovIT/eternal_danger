@@ -5,48 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e73b3bc0-aabf-4f69-a873-2ca9e57f931d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/1HDRPMaterialSettingsLashesBrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/1HDRPMaterialSettingsLashesBrows.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/2HDRPMaterialSettingsHair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/2HDRPMaterialSettingsHair.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/3HDRPMaterialSettingsSkin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/3HDRPMaterialSettingsSkin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/ExampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/ExampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/ExampleSceneSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/ExampleScene+Readme/ExampleSceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.eternal_danger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eternal_danger/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/Animations/FreeTestAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/Animations/FreeTestAnimationController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/Animations/Materials/DefaultMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/Animations/Materials/DefaultMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/Materials/AsunaArmor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/Materials/AsunaArmor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/Materials/CharacterStandardAmmunition.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/Materials/CharacterStandardAmmunition.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/Materials/CharacterStandardEquipment.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/Materials/CharacterStandardEquipment.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyBlack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyBlue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyGreen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaBodyRed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaHead.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/AsunaHead.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/Cornea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/Cornea.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballBlue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballBrown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballBrown.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballCyan.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballCyan.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballGreen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballGrey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballIceBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballIceBlue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballOrange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballOrange.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballPurple.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballPurple.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballRed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballYellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultEyes/EyeballYellow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBlack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBlonde.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBlonde.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBrown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairBrown.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairRed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultFemaleHair/DefaultFemaleHairWhite.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultLashesBrows/DefaultLashesBrows.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultLashesBrows/DefaultLashesBrows.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultTeeth/DefaultTeeth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/FBX/FreeTestCharacterAsuna/Materials/DefaultTeeth/DefaultTeeth.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerPrefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerPrefab/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowRotation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +24,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowRotation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IdleState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpingState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingState.cs" root0="SKIP_HIGHLIGHTING" />
@@ -109,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733748579011</updated>
-      <workItem from="1733748582262" duration="14552000" />
+      <workItem from="1733748582262" duration="19007000" />
     </task>
     <servers />
   </component>
