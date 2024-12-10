@@ -293,9 +293,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.6
-  far clip plane: 200
-  field of view: 40
+  near clip plane: 0.01
+  far clip plane: 100
+  field of view: 45
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1464,8 +1464,8 @@ MonoBehaviour:
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
     m_InvertInput: 1
-    m_MinValue: -70
-    m_MaxValue: 70
+    m_MinValue: -40
+    m_MaxValue: 40
     m_Wrap: 0
     m_Recentering:
       m_enabled: 0
@@ -1630,10 +1630,10 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 186989994}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 45
     OrthographicSize: 5
-    NearClipPlane: 0.6
-    FarClipPlane: 200
+    NearClipPlane: 0.01
+    FarClipPlane: 100
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -1854,6 +1854,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186989994}
     m_Modifications:
+    - target: {fileID: 338686137890699078, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 613011891877196755, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2754213839197597741, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
         type: 3}
       propertyPath: m_Avatar
@@ -1864,12 +1874,67 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 4775ccfcc5dd08b46962f86c2c57e286, type: 2}
+    - target: {fileID: 3277023023082249728, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3844396250613847918, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4125323010667199133, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4570310481414287440, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731859317048380188, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115957627696286364, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331100293680387065, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590970902955946712, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363859062915441055, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6406355070615668307, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683794014634356951, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7944589613917024658, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949803988266548318, guid: 798c05ee1e2530b4ebb1d9d7e5a2c6a9,
         type: 3}
       propertyPath: m_IsActive
       value: 0
