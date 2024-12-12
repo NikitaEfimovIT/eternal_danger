@@ -1,0 +1,6 @@
+*.tga filter=lfs diff=lfs merge=lfs -text
+Assets/FreeTestCharacterAsuna filter=lfs diff=lfs merge=lfs -text
+Assets/FreeTestCharacterAsuna/*.tga filter=lfs diff=lfs merge=lfs -text
+Assets/FreeTestCharacterAsuna/Textures/AsunaBody/AsunaBodyPSDSourcefile.zip filter=lfs diff=lfs merge=lfs -text
+Assets/FreeTestCharacterAsuna/Textures/AsunaHead/AsunaHeadPSDSourcefile.zip filter=lfs diff=lfs merge=lfs -text
+Assets/FreeTestCharacterAsuna/Textures/CharacterStandardEquipment/CharacterStandardEquipmentPSDSourcefile.zip filter=lfs diff=lfs merge=lfs -text
