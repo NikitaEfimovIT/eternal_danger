@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    
+    // ["PLAYER_PARAMETERS"]
+    
+    public float maxHealth = 100f;
+    public float playerHealth;
+    // ["PLAYER_MOVEMENT_PARAMETERS"]
     public float moveSpeed = 3f;
     public float jumpForce = 3f;
     
+    // ["UTILS_PARAMETERS"]
     public Animator animator;
     public CharacterController characterController;
 
@@ -15,20 +22,20 @@ public class PlayerScript : MonoBehaviour
     
     private InventoryFacade _inventory = new InventoryFacade();
 
+    // ["FUNCTIONS"]
+    
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         _facade = new ControllerFacade(characterController, transform);
         _stateMachine = new PlayerStateMachine();
         _stateMachine.SetState(new IdleState(this));
+        playerHealth = maxHealth;
     }
 
     private void Update()
     {
         HandleCursor();
-
-      
-
         UpdateAnimatorParameters();
         
         if (Input.GetKey(KeyCode.Space) && characterController.isGrounded)
