@@ -682,7 +682,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4144072642806582563, guid: b2b46580ca66c1143b3abcf158a29676,
     type: 3}
   firePoint: {fileID: 251352267}
-  bulletForce: 40
+  bulletForce: 100
   fireRate: 0.2
 --- !u!1 &410087039
 GameObject:
@@ -1632,7 +1632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 2.5, y: -0.000020980835}
+  m_AnchoredPosition: {x: 2.5, y: -0.000015258789}
   m_SizeDelta: {x: -5, y: 8.368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1157465560
@@ -2181,10 +2181,10 @@ RectTransform:
   - {fileID: 1131343164}
   m_Father: {fileID: 2023304036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -661.60876, y: 343.4}
-  m_SizeDelta: {x: 203.8138, y: 16.7364}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 101.40997, y: -11.684387}
+  m_SizeDelta: {x: 202.8137, y: 23.3653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1492677683
 PrefabInstance:
@@ -2312,10 +2312,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2023304036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -726.32, y: -347.38}
-  m_SizeDelta: {x: 89.8643, y: 17.7484}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 44.940002, y: 18.869995}
+  m_SizeDelta: {x: 88.86426, y: 37.748413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1499628457
 MonoBehaviour:
