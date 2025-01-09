@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e73b3bc0-aabf-4f69-a873-2ca9e57f931d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.eternal_danger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eternal_danger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameStateManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InventoryFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InventoryFacade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponShoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardAmmunition/762x51mmRound.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardAmmunition/762x51mmRound.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1735031562153" duration="11227000" />
       <workItem from="1736225479126" duration="5653000" />
       <workItem from="1736376196347" duration="563000" />
-      <workItem from="1736376787887" duration="13426000" />
+      <workItem from="1736376787887" duration="14914000" />
     </task>
     <servers />
   </component>
