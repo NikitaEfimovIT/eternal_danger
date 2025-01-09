@@ -78,9 +78,8 @@ public class PlayerScript : MonoBehaviour
 
     private void HandleCursor()
     {
-        if (!GameStateManager.Instance.onPause)
+        if (!GameStateManager.Instance.onPause && !GameStateManager.Instance.onInventory)
         {
-            Debug.Log("Cursor is pressed");
             Cursor.lockState = Input.GetKey(KeyCode.LeftAlt) ? CursorLockMode.None : CursorLockMode.Locked;
         }
     }

@@ -12,7 +12,7 @@ public class WeaponShoot : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(0) && Time.time >= nextFireTime && GameStateManager.Instance.onPause==false)
+        if (Input.GetMouseButton(0) && Time.time >= nextFireTime && GameStateManager.Instance.onPause==false && GameStateManager.Instance.onInventory==false)
         {
             Shoot(); 
             nextFireTime = Time.time + fireRate;

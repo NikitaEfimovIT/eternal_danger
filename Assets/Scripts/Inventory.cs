@@ -7,8 +7,11 @@ public class KeyItem
     public float itemId;
     public int doorId;
 
+    public string name;
+
     public KeyItem(float itemId, int doorId)
     {
+        this.name = "Key for door "+doorId.ToString();
         this.itemId = itemId;
         this.doorId = doorId;
     }
