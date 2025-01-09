@@ -22,6 +22,9 @@ public class PlayerScript : MonoBehaviour
     
     private InventoryFacade _inventory = new InventoryFacade();
 
+    // public GameObject pauseCanvas;
+
+    
     // ["FUNCTIONS"]
     
     private void Start()
@@ -36,6 +39,7 @@ public class PlayerScript : MonoBehaviour
     private void Update()
     {
         HandleCursor();
+        // HandlePause();
         UpdateAnimatorParameters();
         
         if (Input.GetKey(KeyCode.Space) && characterController.isGrounded)
@@ -74,8 +78,26 @@ public class PlayerScript : MonoBehaviour
 
     private void HandleCursor()
     {
-        Cursor.lockState = Input.GetKey(KeyCode.LeftAlt) ? CursorLockMode.None : CursorLockMode.Locked;
+        if (!GameStateManager.Instance.onPause)
+        {
+            Debug.Log("Cursor is pressed");
+            Cursor.lockState = Input.GetKey(KeyCode.LeftAlt) ? CursorLockMode.None : CursorLockMode.Locked;
+        }
     }
+
+	// private void HandlePause()
+	// {
+ //        GameObject mainCanvas = GameObject.FindGameObjectWithTag("Canvas");
+ //        if (Input.GetKeyDown(KeyCode.Escape))
+ //        {
+ //            Debug.Log("Escape");
+ //            Debug.Log(pauseCanvas);
+ //            Cursor.lockState = CursorLockMode.None;
+ //            Time.timeScale = 0 ;
+ //            mainCanvas.SetActive(false);
+ //            pauseCanvas.SetActive(true);
+ //        }
+	// }
 
     public void ApplyGravity(float gravity, float deltaTime)
     {

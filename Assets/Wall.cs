@@ -28,8 +28,6 @@ public class Wall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(this.door.transform.position.x);
-        
         if(this.door.transform.position.x >= openX)
             this.needToOpen = false;
         
