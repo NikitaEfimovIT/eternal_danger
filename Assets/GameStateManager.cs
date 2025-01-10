@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameStateManager : MonoBehaviour
@@ -12,8 +11,16 @@ public class GameStateManager : MonoBehaviour
     public GameObject inventoryCanvas;
 
     public GameObject mainCanvas;
+    private static GameStateManager _instance;
+    public static GameStateManager Instance { 
+        get 
+        {
+            if (_instance == null)
+                _instance = FindObjectOfType<GameStateManager>();
 
-    public static GameStateManager Instance { get; private set; }
+            return _instance;
+        }
+    }
 
     private void Awake()
     {
@@ -23,9 +30,8 @@ public class GameStateManager : MonoBehaviour
             return;
         }
 
-        Instance = this; // Сохраняем ссылку на текущий объект
-        Time.timeScale = 1 ;
-
+        _instance = this; // Сохраняем ссылку на текущий объект
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
