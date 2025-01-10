@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,7 +16,7 @@ public class WeaponGunPoint : MonoBehaviour
         if(Physics.Raycast(gunPoint.position, gunPoint.forward, out var hitPoint, distance))
             point = hitPoint.point;
 
-        image.rectTransform.position = Camera.main.WorldToScreenPoint(point);
+        image.rectTransform.position = Vector3.Lerp(image.rectTransform.position, Camera.main.WorldToScreenPoint(point), Time.deltaTime * 10f);
     }
 
     private void OnDrawGizmos()
