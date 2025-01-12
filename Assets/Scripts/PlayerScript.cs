@@ -4,29 +4,19 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    
-    // ["PLAYER_PARAMETERS"]
-    
-    public float maxHealth = 100f;
+    public float maxHealth = 10f; // Устанавливаем 10 HP
     public float playerHealth;
-    // ["PLAYER_MOVEMENT_PARAMETERS"]
+
     public float moveSpeed = 3f;
     public float jumpForce = 3f;
-    
-    // ["UTILS_PARAMETERS"]
+
     public Animator animator;
     public CharacterController characterController;
 
     private ControllerFacade _facade;
     private PlayerStateMachine _stateMachine;
-    
     private InventoryFacade _inventory = new InventoryFacade();
 
-    // public GameObject pauseCanvas;
-
-    
-    // ["FUNCTIONS"]
-    
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -39,9 +29,8 @@ public class PlayerScript : MonoBehaviour
     private void Update()
     {
         HandleCursor();
-        // HandlePause();
         UpdateAnimatorParameters();
-        
+
         if (Input.GetKey(KeyCode.Space) && characterController.isGrounded)
         {
             ChangeState(new JumpingState(this));
@@ -49,10 +38,11 @@ public class PlayerScript : MonoBehaviour
         else
         {
             _stateMachine.Update();
-           
         }
+
         _facade.ApplyGravity(Physics.gravity.y, Time.deltaTime, GetMoveDirection(), moveSpeed);
     }
+
     public void ChangeState(PlayerState newState)
     {
         _stateMachine.SetState(newState);
@@ -64,7 +54,6 @@ public class PlayerScript : MonoBehaviour
         moveDirection.y = 0;
         return moveDirection.normalized;
     }
-    
 
     public void Move(Vector3 moveDirection)
     {
@@ -84,35 +73,34 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-	// private void HandlePause()
-	// {
- //        GameObject mainCanvas = GameObject.FindGameObjectWithTag("Canvas");
- //        if (Input.GetKeyDown(KeyCode.Escape))
- //        {
- //            Debug.Log("Escape");
- //            Debug.Log(pauseCanvas);
- //            Cursor.lockState = CursorLockMode.None;
- //            Time.timeScale = 0 ;
- //            mainCanvas.SetActive(false);
- //            pauseCanvas.SetActive(true);
- //        }
-	// }
-
     public void ApplyGravity(float gravity, float deltaTime)
     {
         _facade.ApplyGravity(gravity, deltaTime, GetMoveDirection(), moveSpeed);
     }
-    
+
     private void UpdateAnimatorParameters()
     {
-        // Set speed parameter based on movement
         Vector3 moveDirection = GetMoveDirection();
         animator.SetFloat("moveSpeed", moveDirection.magnitude);
-
-        // Set grounded parameter
         animator.SetBool("isGrounded", characterController.isGrounded);
-
-        // Set jumping parameter if vertical velocity is positive
         animator.SetBool("isJumping", characterController.velocity.y > 0);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        playerHealth -= damage;
+        Debug.Log($"Player took damage! Current health: {playerHealth}");
+
+        if (playerHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("Player died!");
+        // Здесь можно добавить логику конца игры или перезапуска уровня
+        Destroy(gameObject);
     }
 }

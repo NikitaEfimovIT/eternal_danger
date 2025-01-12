@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4144072642806582563}
   - component: {fileID: 2316923405829318699}
   - component: {fileID: -5649632962425628800}
+  - component: {fileID: -3627242304084334810}
   m_Layer: 0
   m_Name: 762x51mmRound
   m_TagString: Untagged
@@ -112,7 +113,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &2316923405829318699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -141,9 +142,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3643876557022708998}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 805cddfd2d28a4c0b98b4c8bceef94db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lifetime: 5
+--- !u!114 &-3627242304084334810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3643876557022708998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836e779bef5554e0faae120872bf3f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
