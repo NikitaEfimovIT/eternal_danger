@@ -100,7 +100,6 @@ public class PlayerScript : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player died!");
-        // Здесь можно добавить логику конца игры или перезапуска уровня
         Destroy(gameObject);
     }
 }
