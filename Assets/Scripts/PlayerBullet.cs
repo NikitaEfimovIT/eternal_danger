@@ -6,16 +6,16 @@ public class PlayerBullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.name == "Gun")
         {
             EnemyBot enemy = collision.gameObject.GetComponent<EnemyBot>();
-            if (enemy != null)
+            if (enemy != null || collision.gameObject.name=="Gun")
             {
                 enemy.TakeDamage(damage); 
                 Debug.Log("Enemy hit!");
             }
         }
-
-        Destroy(gameObject); 
+        if(collision.gameObject.name!="Player")
+            Destroy(gameObject); 
     }
 }
