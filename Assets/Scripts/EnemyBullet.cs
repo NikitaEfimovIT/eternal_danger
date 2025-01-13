@@ -11,6 +11,15 @@ public class EnemyBullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(gameObject); 
+        Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.name == "Player")
+        {
+            PlayerScript player = collision.gameObject.GetComponent<PlayerScript>();
+            player.TakeDamage(10);
+        }
+        if (collision.gameObject.name != "Gun")
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -10,7 +10,7 @@ public class EnemyBot : MonoBehaviour
     public float bulletSpeed = 10f; 
     public int maxHealth = 3; 
 
-    private int currentHealth;
+    public int currentHealth;
     private float shootingTimer;
 
     private void Start()
@@ -63,7 +63,7 @@ public class EnemyBot : MonoBehaviour
         {
             rb.velocity = gunPoint.forward * bulletSpeed;
         }
-        Destroy(bullet, 5f);
+        // Destroy(bullet, 5f);
     }
 
     public void TakeDamage(int damage)
